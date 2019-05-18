@@ -1,5 +1,6 @@
 """Lab 1: Expressions and Control Structures"""
 
+
 def both_positive(x, y):
     """Returns True if both x and y are positive.
 
@@ -9,6 +10,7 @@ def both_positive(x, y):
     True
     """
     return x > 0 and y > 0
+
 
 def sum_digits(n):
     """Sum all the digits of n.
@@ -26,4 +28,4 @@ def sum_digits(n):
     if n == 0:
         return 0
     last_digit = n % 10
-    return last_digit + sum_digits((n-last_digit)//10)
+    return last_digit + sum_digits((n - last_digit) // 10)
